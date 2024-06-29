@@ -1,0 +1,35 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.10797",
+   "Default View_TopLeft":"14,-347",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_tx_0 -pg 1 -lvl 6 -x 1490 -y 410 -defaultsOSRD
+preplace port port-id_rx_0 -pg 1 -lvl 0 -x -180 -y 430 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 140 -y 30 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 4 -x 1100 -y 100 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 5 -x 1350 -y 90 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 3 -x 830 -y 80 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 1 -x 140 -y 230 -defaultsOSRD
+preplace inst axi_protocol_0 -pg 1 -lvl 2 -x 570 -y 400 -defaultsOSRD
+preplace inst uart_0 -pg 1 -lvl 3 -x 830 -y 400 -defaultsOSRD
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 1 3 450 270 700 160 970
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 -160 120 440 80 690 170 960J
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 -150 130 430
+preplace netloc uart_0_tx 1 3 3 NJ 410 NJ 410 NJ
+preplace netloc rx_0_1 1 0 3 -160J 480 NJ 480 680J
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 4 1 N 90
+preplace netloc axi_smc_M00_AXI 1 3 1 N 80
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 2 N 0 690
+preplace netloc axi_protocol_0_m_axis 1 2 1 680 370n
+preplace netloc uart_0_m_axis 1 1 3 460 490 NJ 490 960
+levelinfo -pg 1 -180 140 570 830 1100 1350 1490
+pagesize -pg 1 -db -bbox -sgen -260 -130 1570 500
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_bram_cntlr_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
