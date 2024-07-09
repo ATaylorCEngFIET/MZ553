@@ -1,0 +1,9 @@
+/git_demo.runs/
+/git_demo.hw/
+/git_demo.gen/
+/git_demo.cache/
+/wksp/
+*.dmp
+*.log
+/vivado.jou
+*.xsa
